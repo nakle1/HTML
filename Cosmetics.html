@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    
+    <style>
+
+        body {
+            background-color: #58DF55;
+            font-family: "DM Sans", Helvetica, sans-serif;
+            color: #0D0D0D;
+            margin: 0;
+            padding: 0;
+        }
+
+        main {
+            margin-top: 1px;
+        }
+
+        header {
+            display: flex;
+            flex-direction: row;
+            font-size: 50px;
+            font-weight:400;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0;
+            margin-top: 10px;
+            padding: 0;
+            color: #0D0D0D;
+            border-top: 3px solid #0D0D0D;
+            border-bottom: 3px solid #0D0D0D;
+            border-left: none;
+            border-right: none;
+            height: 60px;
+        } 
+
+        header a {
+            margin: 0;
+            margin-top: 10px;
+            margin-left: 15px;
+        }
+
+        header nav {
+            display: flex;
+            gap: 0;
+        }
+
+        header nav a{
+            text-decoration: none;
+            color: #0D0D0D;
+            border-left: 3px solid #0D0D0D;
+            padding-left: 15px;
+            padding-right: 15px;
+            margin: 0;
+
+        }
+
+        header nav a:hover {
+            background-color: #0D0D0D;
+            color: #58DF55;
+        }
+
+        footer {
+            background-color: #0D0D0D;
+            text-align: center;
+            color: #58DF55;
+            font-size: 30px;
+            font-weight: 500;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 10px;
+        }
+
+        .container {
+            font-family: "Inter", Helvetica, sans-serif;
+            height: 100vh;
+            display: flex;
+            font-size: 30px;
+        }
+
+        .image,  .desc {
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: justify;
+        }
+
+        .image img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .desc div {
+            width: 75%;
+        }
+        
+        .desc div p {
+            margin: 0;
+            padding: 0;
+        }
+
+        .desc a {
+            font-size: 50px;
+            font-weight: 600;
+            color:#0D0D0D;
+        }
+
+        .desc a:hover {
+            background-color: #0D0D0D;
+            color:#58DF55;
+            padding: 0 10px;
+        }
+        #easteregg {
+            margin-top: 20px;
+            color: #58DF55;
+            padding: 0 10px;
+        }
+
+        #easteregg:hover {
+            background-color: #0D0D0D;
+            color: #58DF55;
+        }
+
+        main p {
+            font-family: "Inter", Arial, Helvetica, sans-serif;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <a href="Main.html"><img src="logo.png" alt="logo"></a>
+        <nav>
+            <a href="Cosmetics.html">Cosmetics</a>
+            <a href="Core.html">Core</a>
+            <a href="About.html">About Us</a>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="desc">
+                <div>
+                    <a class="title" href="https://fonts.google.com/">GOOGLE FONTS</a>
+                    <p>Fonts are an essential part of web design, they don't only convey your ideas but also portray your aesthetic for the website. Your source code editor will come with all standard fonts, Google fonts allow you to extend that library. If you ever find yourself looking for more options, Google fonts will be able to provide it. Click the bold letters to access link.</p>
+                    <p id="easteregg">our favorites are: Inter and DM Sans, the fonts used in this website</p>
+                </div>
+            </div>
+            <div class="image">
+                <img src="Typefaces.jpg" alt="typeface">
+            </div>
+        </div>
+        <div class="container">
+            <div class="image">
+                <img src="Bootstrap.png" alt="bootstrap">
+            </div>
+            <div class="desc">
+                <div>
+                    <a class="title" href="https://icons.getbootstrap.com/">BOOTSTRAP ICONS</a>
+                    <p>Icons, you can't live without 'em! From that order button to your everyday notifications, icons bring a spark of joy to the eyes of every user. Bootstrap Icons is the perfect site for all of your icon loving needs, and its totally free! Cater to your needs now by choosing from the wide variety of high-quality, business-grade icon packs ready to be implemented straight to your code through the link above!</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&#169;&lt;website&gt;  All rights reserved.</p>
+    </footer>
+</body>
+</html>

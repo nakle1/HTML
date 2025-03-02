@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>&lt;website&gt;</title>
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+   
+   <style>
+
+        body {
+            background-color: #FFD230;
+            font-family: "DM Sans", Helvetica, sans-serif;
+            color: #0D0D0D;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+        }
+
+        header {
+            display: flex;
+            flex-direction: row;
+            font-size: 50px;
+            font-weight: 400;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0;
+            margin-top: 10px;
+            padding: 0;
+            color: #0D0D0D;
+            border-top: 3px solid #0D0D0D;
+            border-bottom: 3px solid #0D0D0D;
+            border-left: none;
+            border-right: none;
+            height: 60px;
+        } 
+
+        #logo {
+            margin: 0;
+            margin-top: 10px;
+            margin-left: 15px;
+        }
+
+        header nav {
+            display: flex;
+            gap: 0;
+        }
+
+        header nav a{
+            text-decoration: none;
+            color: #0D0D0D;
+            border-left: 3px solid #0D0D0D;
+            padding-left: 15px;
+            padding-right: 15px;
+            margin: 0;
+
+        }
+
+        header nav a:hover {
+            background-color: #0D0D0D;
+            color: #FFD230;
+        }
+
+        main p {
+            font-family: "Inter", arial, sans-serif;
+            text-transform: uppercase;
+            font-size: 75px;
+            font-weight: 500;
+            color: #0D0D0D;
+            padding: 0;
+            margin: 0;
+        }
+
+        main {
+            margin-left: 10px;
+        }
+
+        .highlight:hover {
+            background-color: #3075ff;
+            color: #f1f1f1;
+            
+        }
+
+        .underline {
+            text-decoration:underline;
+        }
+
+        footer {
+            background-color: #0D0D0D;
+            text-align: center;
+            color:#FFD230;
+            font-size: 30px;
+            font-weight: 500;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 120px;
+        }
+
+        .highlight {
+            background-color: #0D0D0D;
+            color: #FFD230;
+            padding: 0 10px;
+        }
+
+        #hint {
+            font-size: 20px;
+            text-align: center;
+            text-transform: lowercase;
+            margin-top: 10px; 
+        }
+
+        #easteregg {
+            color: #FFD230;
+            padding: 0 10px;
+            display: inline;
+        }
+
+        #easteregg:hover {
+            background-color: #0D0D0D;
+            color: #FFD230;
+            display: inline;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <a id="logo" href="Main.html"><img src="logo.png" alt="logo"></a>
+        <nav>
+            <a href="Cosmetics.html">Cosmetics</a>
+            <a href="Core.html">Core</a>
+            <a href="About.html">About Us</a>
+        </nav>
+    </header>
+    <main>
+        <p class="underline">Welcome to our website!</p>
+        <div>
+            <p>
+                If you’re on this page, that means you must want to <span class="highlight">make a website!</span>
+            </p>
+            <p>
+                Are you unsure of how to start and where? <span class="underline">You’ve come to the right site.</span>
+            </p>
+            <p>
+                We go over the two main components of website building, <span class="highlight">code and cosmetics.</span>
+            </p>
+        </div>
+        <p id="hint">*Move your mouse around to find easter eggs*</p>
+        <p id="easteregg">like this one</p>
+        <p id="easteregg">and this one</p>
+        <p id="easteregg">you found em' all!!!</p>
+    </main>
+    <footer>
+        <p>&#169;&lt;website&gt;  All rights reserved.</p>
+    </footer>
+</body>
+</html>
