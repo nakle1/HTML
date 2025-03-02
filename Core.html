@@ -87,10 +87,9 @@
         main {
             font-family: "Inter", Arial, Helvetica, sans-serif;
             margin-left: 10px;
-            
         }
 
-        main p {
+        main p, h1 {
             text-transform: uppercase;
             font-size: 70px;
             font-weight: 500;
@@ -100,33 +99,49 @@
         }
 
         table {
-           border-collapse: collapse;
-           width: 80vw;
-           margin-left: auto;
-           margin-right: auto;
-           border: 3px solid black;
+            margin-top: 20px;
+            border-collapse: collapse;
+            width: 80vw;
+            margin-left: auto;
+            margin-right: auto;
+            border: 3px solid black;
         }
 
-       th, td {
-           border: 3px solid black;
-           padding: 10px;
-           text-align: left;
+        th, td {
+            border: 3px solid black;
+            padding: 10px;
+            text-align: left;
+            font-size: 50px;
         }
-        
 
+        i {
+            font-size: 60px;
+        }
+
+        h1 {
+            margin-top: 20px;
+            margin-left: auto;
+            margin-right: auto; 
+            text-align: center;
+        }
+
+        .highlight:hover {
+            background-color:#f1f1f1;
+            color: cornflowerblue;
+        }
     </style>
 </head>
 <body>
     <header>
         <a href="Main.html"><img src="logo.png" alt="logo"></a>
-        <nav>
+        <nav>   
             <a href="Cosmetics.html">Cosmetics</a>
             <a href="Core.html">Core</a>
             <a href="About.html">About Us</a>
         </nav>
     </header>
     <main>
-        <p>When it comes to code, the first thing you need is a good layout. A good webpage layout would not only make it easier for users to experience your website, smart planning might even increase your <span class="underline">efficiency in coding</span>. <span class="highlight">Semantic tags</span> are where you should focus on first.</p>
+        <p><i class="bi bi-arrow-down-right-circle"></i>When it comes to code, the first thing you need is a <span class="highlight">good layout.</span> A good webpage layout would not only make it <span class="highlight">easier for users</span> to experience your website, smart planning might even increase your <span class="underline">efficiency in coding</span>. <span class="highlight">Semantic tags</span> are where you should focus on first.</p>
         <section>
             <h1>POPULAR SEMANTIC TAGS</h1>
             <table>
