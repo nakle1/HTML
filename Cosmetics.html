@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <style>
 
         body {
@@ -118,19 +118,36 @@
             color:#58DF55;
             padding: 0 10px;
         }
-        #easteregg {
+        .easteregg {
             margin-top: 20px;
             color: #58DF55;
             padding: 0 10px;
         }
 
-        #easteregg:hover {
+        .easteregg:hover {
             background-color: #0D0D0D;
             color: #58DF55;
         }
 
         main p {
             font-family: "Inter", Arial, Helvetica, sans-serif;
+        }
+
+        .sec i {
+            font-size: 20px;
+        }
+
+        .sec a {
+            text-decoration: none;
+            color: #0D0D0D;
+        }
+
+        .sec {
+            font-size: 20px;
+            display: block;
+            margin-right: auto;
+            margin-left: auto;
+            text-align: center;
         }
 
     </style>
@@ -150,7 +167,7 @@
                 <div>
                     <a class="title" href="https://fonts.google.com/">GOOGLE FONTS</a>
                     <p>Fonts are an essential part of web design, they don't only convey your ideas but also portray your aesthetic for the website. Your source code editor will come with all standard fonts, Google fonts allow you to extend that library. If you ever find yourself looking for more options, Google fonts will be able to provide it. Click the bold letters to access link.</p>
-                    <p id="easteregg">our favorites are: Inter and DM Sans, the fonts used in this website</p>
+                    <p class="easteregg">our favorites are: Inter and DM Sans, the fonts used in this website</p>
                 </div>
             </section>
             <section class="image">
@@ -168,6 +185,11 @@
                 </div>
             </section>
         </div>
+        <section class="sec">
+            <h1>Survey: Was this page helpful?</h1>
+            <a href="#"><i class="bi bi-check-circle">YES</i></a>
+            <a href="#"><i class="bi bi-x-circle">NO</i></a>
+        </section>
     </main>
     <footer>
         <p>&#169;&lt;website&gt;  All rights reserved.</p>

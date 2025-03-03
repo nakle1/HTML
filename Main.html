@@ -80,7 +80,7 @@
         }
 
         .highlight:hover {
-            background-color: #3075ff;
+            background-color: rgb(48, 117, 255);
             color: #f1f1f1;
         }
 
@@ -96,7 +96,7 @@
             font-weight: 500;
             margin-left: auto;
             margin-right: auto;
-            margin-top: 120px;
+            margin-top: 25px;
         }
 
         .highlight {
@@ -112,13 +112,13 @@
             margin-top: 10px; 
         }
 
-        #easteregg {
+        .easteregg {
             color: #FFD230;
             padding: 0 10px;
             display: inline;
         }
 
-        #easteregg:hover {
+        .easteregg:hover {
             background-color: #0D0D0D;
             color: #FFD230;
             display: inline;
@@ -126,6 +126,24 @@
         
         i {
             font-size: 70px;
+            margin-right: 5px;
+        }
+
+        section i {
+            font-size: 20px;
+        }
+
+        section a {
+            text-decoration: none;
+            color: #0D0D0D;
+        }
+
+        section {
+            font-size: 20px;
+            display: block;
+            margin-right: auto;
+            margin-left: auto;
+            text-align: center;
         }
     </style>
 </head>
@@ -139,7 +157,7 @@
         </nav>
     </header>
     <main>
-        <p class="underline"><i class="bi bi-arrow-down-right-circle"></i>Welcome to our website!</p>
+        <p class="underline"><i class="bi bi-arrow-down-right-circle"></i><i class="bi bi-0-circle"></i>Welcome to our website!</p>
         <div>
             <p>
                 If you’re on this page, that means you must want to <span class="highlight">make a website!</span>
@@ -152,9 +170,14 @@
             </p>
         </div>
         <p id="hint">*Move your mouse around to find easter eggs*</p>
-        <p id="easteregg">like this one</p>
-        <p id="easteregg">and this one</p>
-        <p id="easteregg">you found em' all!!!</p>
+        <p class="easteregg">like this one</p>
+        <p class="easteregg">and this one</p>
+        <p class="easteregg">you found em' all!!!</p>
+        <section>
+            <h1>Survey: Was this page helpful?</h1>
+            <a href="#"><i class="bi bi-check-circle">YES</i></a>
+            <a href="#"><i class="bi bi-x-circle">NO</i></a>
+        </section>
     </main>
     <footer>
         <p>&#169;&lt;website&gt;  All rights reserved.</p>
